@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: blueviolet;
+    margin-left: 200px;
+}
+.container{
+    position: relative;
+    top:20px;
+    left:200px;
+    background-color: hotpink;
+    color: white;
+    font-size: x-large;
+    width:550px;
+    height: 780px;
+}
+
+.container-left{
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+
+.container-right{
+    position: absolute;
+    left:400px;
+    transform: rotate(-50deg);
+    
+}
+
+/* smile start */
+.top-smile{
+    position: relative;
+    top:30px;
+    left:10px;
+    right:10px;
+background-color: yellow;
+border-radius: 50%;
+height: 100px;
+width:100px;
+border:2px solid crimson;
+
+
+}
+
+.lefteye{
+    position: absolute;
+    top:30px;
+    left:20px;
+background-color: black;
+width: 15px;
+height: 20px;
+border-radius: 50%;
+}
+
+.righteye{
+    position: absolute;
+    top:30px;
+    left:60px;
+    background-color: black;
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.mouth{
+    position: absolute;
+    top:30px;
+    left:20px;
+    
+    
+    width: 55px;
+    height: 50px;
+   
+
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-radius: 100%;
+}
+/* smile end */
+.left{
+position: absolute;
+top:420px;
+left:-260px;
+background-color: crimson;
+color: darkgoldenrod;
+font-weight: bold;
+transform: rotate(-90deg);
+height:80px;
+width: 600px;
+line-height: 2.5em;
+}
+
+.right{
+    position: absolute;
+background-color: darkgoldenrod;
+top:159px;
+left:80px;
+height:580px;
+width: 470px;
+display: flex;
+font-size: medium;
+padding-top: 20px;
+}
+
+.right ul li{
+    list-style-type: none;
+   
+}
+.list{
+    display: flex;
+    padding:15px;
+   
+}
+
+input{
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px crimson;
+}
+
+.sign{
+position: absolute;
+top:752px;
+left:300px;
+color: darkmagenta;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
